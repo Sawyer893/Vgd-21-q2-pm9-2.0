@@ -21,13 +21,13 @@ public class SideMove : MonoBehaviour
         //move us right
         if(Input.GetAxis("Horizontal")> 0)
         {
-            sr.flipX = false;
+            sr.flipX = true;
             rb2.AddForce(new Vector2(accel, 0));
         }
         //move left
         if (Input.GetAxis("Horizontal") < 0)
         {
-            sr.flipX = true;
+            sr.flipX = false;
             rb2.AddForce(new Vector2(-accel, 0));
         }
     }
