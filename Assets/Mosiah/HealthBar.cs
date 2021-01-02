@@ -7,9 +7,9 @@ public class HealthBar : MonoBehaviour
     private Transform bar;
 
     // Start is called before the first frame update
-   private void Start()
+   private void Awake()
     {
-        Transform bar = transform.Find("Bar");
+        bar = transform.Find("Bar");
        
     }
 
@@ -18,4 +18,10 @@ public class HealthBar : MonoBehaviour
     {
         bar.localScale = new Vector3(sizeNormalized, 1f);  
     }
+    public void SetColor(Color color)
+    {
+        bar.Find("BarSprite").GetComponent<SpriteRenderer>().color = color;
+    }
 }
+
+

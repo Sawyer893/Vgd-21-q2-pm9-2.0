@@ -4,9 +4,27 @@ using UnityEngine;
 
 public class GameHandler : MonoBehaviour
 {
-    [SerializeField] private HealthBar healthBar;
-   private void Start()
+    [SerializeField] public HealthBar healthBar;
+
+    private void Start()
     {
-        healthBar.SetSize(.4f);
+        float health = 1f;
+
+        if (health > 0.1f)
+        {
+            health -= .01f;
+            healthBar.SetSize(health);
+
+            if(health < .3f)
+            {
+                if((health * 100f) % 3 == 0)
+                {
+                    healthBar.SetColor(Color.white);
+                } else
+                {
+                    healthBar.SetColor(Color.red);
+                }
+            }
+        }
     }
-}
+    }

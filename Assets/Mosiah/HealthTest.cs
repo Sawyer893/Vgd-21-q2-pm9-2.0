@@ -1,23 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthTest : MonoBehaviour
 {
     public HealthBar healthbar1;
     public float health = 1f;
-
+   
 
     private void Update()
     {
 
-        if (health > 0)
+        if (health > .001f)
         {
 
             StartCoroutine(healthbar());
-            health -= 0.1f;
+            health -= 0.0005f;
             healthbar1.SetSize(health);
 
+        }else
+        {
+            Debug.Log("Switch scene");
+            SceneManager.LoadScene("Dead");
         }
     }
     IEnumerator healthbar()
