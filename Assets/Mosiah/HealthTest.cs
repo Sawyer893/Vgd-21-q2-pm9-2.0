@@ -22,7 +22,7 @@ public class HealthTest : MonoBehaviour
         }else
         {
             Debug.Log("Switch scene");
-            SceneManager.LoadScene("Dead");
+            SceneManager.LoadScene("DeadHealth");
         }
     }
     IEnumerator healthbar()
