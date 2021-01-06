@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Dead.unity
+    path: Assets/Scenes/DeadHealth.unity
     guid: a9f3e50cc7e0f61499aa23a6ae0c63a3
   - enabled: 1
     path: Assets/Mosiah/Scene1testrun.unity
