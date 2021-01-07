@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpeedLimiter : MonoBehaviour
 {
 
+    public float runCap = 6;
     public float speedCap = 3;
     private Rigidbody2D rb2;
     // Start is called before the first frame update
@@ -27,8 +28,23 @@ public class SpeedLimiter : MonoBehaviour
         if (rb2.velocity.x < -speedCap)
         {
             rb2.velocity = new Vector2(-speedCap, rb2.velocity.y);
-        }
+        }//speed
+        if (Input.GetKeyDown("r"))
+        {
+            speedCap = 6;
 
+        }
+        else
+        {
+            speedCap = 3;
+        }
+        if (Input.GetKeyDown("r"))
+        {
+            speedCap = 6;
+        } else
+        {
+            speedCap = 3;
+        }
     }
 
 
