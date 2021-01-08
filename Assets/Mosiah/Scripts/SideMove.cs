@@ -14,7 +14,7 @@ public class SideMove : MonoBehaviour
         inventory = new Inventory();
     }
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update.
     void Start()
     {
         rb2 = GetComponent<Rigidbody2D>();
