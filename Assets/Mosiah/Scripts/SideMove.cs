@@ -7,6 +7,12 @@ public class SideMove : MonoBehaviour
     public float accel = 8;
     private Rigidbody2D rb2;
     private SpriteRenderer sr;
+    private Inventory inventory;
+
+    private void Awake()
+    {
+        inventory = new Inventory();
+    }
 
     // Start is called before the first frame update
     void Start()
