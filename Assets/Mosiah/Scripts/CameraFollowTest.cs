@@ -11,6 +11,6 @@ public class CameraFollowTest : MonoBehaviour
     //wait for lateupdate
     void LateUpdate()
     {
-        transform.position = new Vector3(player.transform.position.x, player.transform.position.y > 0 player.transform.position = 0, -10f);
+       
     }
 }
