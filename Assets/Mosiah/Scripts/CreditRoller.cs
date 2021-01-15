@@ -13,9 +13,9 @@ public class CreditRoller : MonoBehaviour
     void Start()
     {
         //For each credit screen, add a new reference here:
-        creditScreens[0] = GameObject.Find("Credit1");
-        creditScreens[1] = GameObject.Find("Credit2");
-        creditScreens[2] = GameObject.Find("Credit3");
+        creditScreens[0] = GameObject.Find("CreditTest1");
+        creditScreens[1] = GameObject.Find("CreditTest2");
+        creditScreens[2] = GameObject.Find("CreditTest3");
         //creditScreens[3] = GameObject.Find("Credit4");
         //creditScreens[4] = GameObject.Find("Credit5");
 

@@ -13,6 +13,6 @@ public class MainMenuSceneL : MonoBehaviour
     }
     public void LoadGame()
     {
-        SceneManager.LoadScene("Scene1testrun");
+        SceneManager.LoadScene("Level");
     }
 }

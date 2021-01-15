@@ -8,7 +8,7 @@ public class ItemPickup : MonoBehaviour
 {
     [SerializeField]
     private Text pickUpText;
-
+    public GameObject player;
     private bool pickUpAllowd;
 
     // Use this for initialization
@@ -24,7 +24,7 @@ public class ItemPickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name.Equals('Player'))
+        if (collision.gameObject.name.Equals(player))
         {
             pickUpText.gameObject.SetActive(true);
             pickUpAllowd = true;
@@ -33,7 +33,7 @@ public class ItemPickup : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.name.Equals('Player'))
+        if (collision.gameObject.name.Equals(player))
         {
             pickUpText.gameObject.SetActive(false);
             pickUpAllowd = false;

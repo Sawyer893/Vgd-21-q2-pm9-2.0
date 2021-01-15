@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CreditMonitor : MonoBehaviour
+public class StartTest : MonoBehaviour
 {
 
     // Use this for initialization
@@ -17,12 +17,11 @@ public class CreditMonitor : MonoBehaviour
     {
 
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.S))
         {
 
-            SceneManager.LoadScene("CreditScroller"); //Requires "Using" (see above)
+            SceneManager.LoadScene("Level"); //Requires "Using" (see above)
 
         }
     }
 }
-
