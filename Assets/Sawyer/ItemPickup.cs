@@ -24,19 +24,15 @@ public class ItemPickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-<<<<<<< HEAD
+
         if (collision.gameObject.name.Equals(player))
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         if (collision.gameObject.name.Equals("Player"))
-=======
+
         if (collision.gameObject.name.Equals(player))
->>>>>>> main
-=======
+
         if (collision.gameObject.name.Equals(player))
->>>>>>> main
->>>>>>> main
+
         {
             pickUpText.gameObject.SetActive(true);
             pickUpAllowd = true;
@@ -45,19 +41,14 @@ public class ItemPickup : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-<<<<<<< HEAD
         if (collision.gameObject.name.Equals(player))
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         if (collision.gameObject.name.Equals("Player"))
-=======
+
         if (collision.gameObject.name.Equals(player))
->>>>>>> main
-=======
+
         if (collision.gameObject.name.Equals(player))
->>>>>>> main
->>>>>>> main
+
         {
             pickUpText.gameObject.SetActive(false);
             pickUpAllowd = false;
