@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CreditRoller : MonoBehaviour
 {
-    private static int nScreens = 3;
+    private static int nScreens = 6;
     private GameObject[] creditScreens = new GameObject[nScreens];
     private static int swapCount = 0;
 
@@ -13,12 +14,12 @@ public class CreditRoller : MonoBehaviour
     void Start()
     {
         //For each credit screen, add a new reference here:
-        creditScreens[0] = GameObject.Find("CreditTest1");
-        creditScreens[1] = GameObject.Find("CreditTest2");
-        creditScreens[2] = GameObject.Find("CreditTest3");
-        //creditScreens[3] = GameObject.Find("Credit4");
-        //creditScreens[4] = GameObject.Find("Credit5");
-
+        creditScreens[0] = GameObject.Find("HollyCredit");
+        creditScreens[1] = GameObject.Find("LillianCredit");
+        creditScreens[2] = GameObject.Find("MosiahCredit");
+        creditScreens[3] = GameObject.Find("NicoCredit");
+        creditScreens[4] = GameObject.Find("SawyerCredit");
+        creditScreens[5] = GameObject.Find("EndCredit");
 
         //Turn them all off...
         for (int i = 0; i < nScreens; i++)
@@ -47,7 +48,7 @@ public class CreditRoller : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.Quit();
+            SceneManager.LoadScene("StartScreen");
         }
 
 

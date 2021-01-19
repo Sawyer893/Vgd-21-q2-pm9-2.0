@@ -15,4 +15,16 @@ public class MainMenuSceneL : MonoBehaviour
     {
         SceneManager.LoadScene("Level");
     }
+    public void LoadCredit()
+    {
+        SceneManager.LoadScene("CreditScroller");
+    }
+    public void LoadStart()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
+    public void LoadTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
 }
