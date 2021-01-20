@@ -8,10 +8,13 @@ public class SideMove : MonoBehaviour
     private Rigidbody2D rb2;
     private SpriteRenderer sr;
     private Inventory inventory;
+    private Animator Anim;
 
     private void Awake()
     {
         inventory = new Inventory();
+        Anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Start is called before the first frame update.
@@ -27,14 +30,19 @@ public class SideMove : MonoBehaviour
         //move us right
         if(Input.GetAxis("Horizontal")> 0)
         {
-            sr.flipX = true;
+           
+
             rb2.AddForce(new Vector2(accel, 0));
         }
         //move left
         if (Input.GetAxis("Horizontal") < 0)
         {
-            sr.flipX = false;
+           
+
             rb2.AddForce(new Vector2(-accel, 0));
+
+            Anim.SetFloat("Velocity X", Mathf.Abs(rb2.velocity.x));
+                
         }
     }
 }

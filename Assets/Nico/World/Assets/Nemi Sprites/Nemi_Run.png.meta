@@ -1,14 +1,19 @@
 fileFormatVersion: 2
-guid: d906a72748ae64a438f1de23b3cfbe7a
+guid: dc6fc9ec7240a464185cbb62b05299e6
 TextureImporter:
   fileIDToRecycleName:
-    21300000: idle 1_0
-    21300002: idle 1_1
-    21300004: idle 1_2
-    21300006: idle 1_3
-    21300008: idle 1_4
-    21300010: idle 1_5
-    21300012: idle 1_6
+    21300000: Nemi_Run_0
+    21300002: Nemi_Run_1
+    21300004: Nemi_Run_2
+    21300006: Nemi_Run_3
+    21300008: Nemi_Run_4
+    21300010: Nemi_Run_5
+    21300012: Nemi_Run_6
+    21300014: Nemi_Run_7
+    21300016: Nemi_Run_8
+    21300018: Nemi_Run_9
+    21300020: Nemi_Run_10
+    21300022: Nemi_Run_11
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -38,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -70,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -80,13 +85,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle 1_0
+      name: Nemi_Run_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 852
-        width: 190
-        height: 230
+        x: 290
+        y: 974
+        width: 280
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -94,19 +99,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe7deab3000ceb74bb81c9317bd40e04
+      spriteID: 8ad267341026fc740914b9252c812fcd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle 1_1
+      name: Nemi_Run_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 852
-        width: 190
-        height: 230
+        x: 670
+        y: 974
+        width: 286
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,19 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea19cc9c57cc1154ab85ae350ff46a41
+      spriteID: fe9fe6718269de74ab0797be40d462e2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle 1_2
+      name: Nemi_Run_2
       rect:
         serializedVersion: 2
-        x: 488
-        y: 852
-        width: 192
-        height: 230
+        x: 1024
+        y: 974
+        width: 304
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,19 +139,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f189677cf14940b449b9adc24fcce564
+      spriteID: 5d0f36c95b24bb3449a92c73771f999c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle 1_3
+      name: Nemi_Run_3
       rect:
         serializedVersion: 2
-        x: 726
-        y: 854
-        width: 190
-        height: 230
+        x: 304
+        y: 644
+        width: 290
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,19 +159,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0ba066683c4fb4bbb7ce87d2b53057
+      spriteID: a674ba21e1794384cbb7fa0c51cd3d5b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle 1_4
+      name: Nemi_Run_4
       rect:
         serializedVersion: 2
-        x: 988
-        y: 852
-        width: 170
-        height: 230
+        x: 694
+        y: 650
+        width: 274
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,19 +179,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ac368d3141f738428b42594d8708186
+      spriteID: b5f01aade4045444aa4b98c2d129a189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle 1_5
+      name: Nemi_Run_5
       rect:
         serializedVersion: 2
-        x: 1218
-        y: 854
-        width: 176
-        height: 232
+        x: 1058
+        y: 644
+        width: 282
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,19 +199,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e0df3c31f897994e962362c6ca22058
+      spriteID: 6fa8dd1d7407f744aba2eea096d65685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle 1_6
+      name: Nemi_Run_6
       rect:
         serializedVersion: 2
-        x: 40
-        y: 590
-        width: 170
-        height: 230
+        x: 264
+        y: 346
+        width: 306
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,7 +219,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d998127abff86d5409f1ec23577a5cb5
+      spriteID: 1a15f210fbe68ea4cae1034237cc3816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nemi_Run_7
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 348
+        width: 286
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaab09106c051794bafe1c634ca2e17c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nemi_Run_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 346
+        width: 280
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d38f869ddbaabc4fb9c800bc9fb9014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nemi_Run_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 18
+        width: 282
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f714976284e1924597a2bac00db26b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nemi_Run_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 24
+        width: 274
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b077c107610f14aba529ad020bbe87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nemi_Run_11
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 18
+        width: 290
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d759cb02d3891b24fa73fa9633cde27d
       vertices: []
       indices: 
       edges: []
@@ -222,7 +327,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bbb269d48b7584f48b087e3c861448eb
+    spriteID: f098b728995f1ef43a6e1f489c8b78d3
     vertices: []
     indices: 
     edges: []
