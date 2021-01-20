@@ -774,7 +774,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &406082084
 RectTransform:
@@ -2924,7 +2924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar1: {fileID: 518695615}
-  health: 0.5
+  health: 1
 --- !u!1 &1945793793
 GameObject:
   m_ObjectHideFlags: 0
