@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: dea81ba110c34aa42af8e110bc5f1a9c
+guid: 0a7614be423f8104abbc5d79b5b3edf6
 TextureImporter:
   fileIDToRecycleName:
-    21300000: idle_0
-    21300002: idle_1
-    21300004: idle_2
-    21300006: idle_3
-    21300008: idle_4
-    21300010: idle_5
-    21300012: idle_6
-    21300014: idle_7
-    21300016: idle_8
-    21300018: idle_9
-    21300020: idle_10
-    21300022: idle_11
-    21300024: idle_12
-    21300026: idle_13
+    21300000: Nemi_Idle2_0
+    21300002: Nemi_Idle2_1
+    21300004: Nemi_Idle2_2
+    21300006: Nemi_Idle2_3
+    21300008: Nemi_Idle2_4
+    21300010: Nemi_Idle2_5
+    21300012: Nemi_Idle2_6
+    21300014: Nemi_Idle2_7
+    21300016: Nemi_Idle2_8
+    21300018: Nemi_Idle2_9
+    21300020: Nemi_Idle2_10
+    21300022: Nemi_Idle2_11
+    21300024: Nemi_Idle2_12
+    21300026: Nemi_Idle2_13
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -45,7 +45,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -59,7 +59,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 120
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -77,7 +77,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,127 +87,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: Nemi_Idle2_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 852
-        width: 190
-        height: 230
-      alignment: 9
-      pivot: {x: 0.6876542, y: 0.09645943}
+        x: 17
+        y: 851
+        width: 192
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e9f0ba2b00b9624a8e12a62c6ff1cd1
+      spriteID: 22cdc50d6b0dc9f4c8e398de138a3b80
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_1
+      name: Nemi_Idle2_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 852
-        width: 190
-        height: 230
-      alignment: 9
-      pivot: {x: 0.6876542, y: 0.09645943}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94069ccd843bde04ba7a9e628c68e95c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_2
-      rect:
-        serializedVersion: 2
-        x: 488
-        y: 852
+        x: 255
+        y: 853
         width: 192
         height: 230
-      alignment: 9
-      pivot: {x: 0.6876542, y: 0.09645943}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d94554413b457c49a8096298d330684
+      spriteID: 04ab79dc329b85140858adcda7b451c3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_3
+      name: Nemi_Idle2_2
       rect:
         serializedVersion: 2
-        x: 726
-        y: 854
-        width: 190
+        x: 487
+        y: 853
+        width: 192
         height: 230
-      alignment: 9
-      pivot: {x: 0.6876542, y: 0.09645943}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03a74c1b07c19354baa217450695523d
+      spriteID: 3b4339ac738dd534792f11442c712100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_4
+      name: Nemi_Idle2_3
       rect:
         serializedVersion: 2
-        x: 988
-        y: 852
-        width: 170
-        height: 230
-      alignment: 9
-      pivot: {x: 0.6876542, y: 0.09645943}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be0fbf1ecd0042344a96ea3b05a8d8d1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_5
-      rect:
-        serializedVersion: 2
-        x: 1218
-        y: 854
-        width: 176
+        x: 725
+        y: 853
+        width: 192
         height: 232
-      alignment: 9
-      pivot: {x: 0.6876542, y: 0.09645943}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29cec52b64dc9244d8ea42ac16f040eb
+      spriteID: 0312ed462a2f72446843988a043aa2a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_6
+      name: Nemi_Idle2_4
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 852
+        width: 169
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3775ce78fdaa0a0438b111393c44779e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nemi_Idle2_5
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 853
+        width: 178
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d5baf5739f83848b3867d3837d8673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nemi_Idle2_6
       rect:
         serializedVersion: 2
         x: 40
@@ -215,153 +215,153 @@ TextureImporter:
         width: 170
         height: 230
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55ed5aa8595833547ac1174a55d5fb0c
+      spriteID: 827ac7dbd784f6749a8bc3a348d23f5f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_7
+      name: Nemi_Idle2_7
       rect:
         serializedVersion: 2
-        x: 204
+        x: 203
         y: 280
-        width: 174
-        height: 232
+        width: 176
+        height: 233
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3537731c92cffa34b818ba1d8fcf5e91
+      spriteID: c864aa5ce7146cb498acccfc0dc099cb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_8
+      name: Nemi_Idle2_8
       rect:
         serializedVersion: 2
         x: 440
         y: 280
-        width: 168
+        width: 169
         height: 230
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62cd76b29dabd5b4b998d28c81551b15
+      spriteID: b8d3701c4c4f594438c8e4b7cff45c24
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_9
+      name: Nemi_Idle2_9
       rect:
         serializedVersion: 2
-        x: 680
+        x: 681
         y: 280
         width: 192
         height: 230
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 578050a747283844c821bb5ce067979e
+      spriteID: a7a1ed976f25ca140928e870c9c84c31
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_10
+      name: Nemi_Idle2_10
       rect:
         serializedVersion: 2
-        x: 918
+        x: 917
         y: 280
-        width: 190
-        height: 228
+        width: 192
+        height: 229
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a333af6758703a74996fe3a5c88b53b3
+      spriteID: 5de1910eb643911499a02231cbbdf9f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_11
+      name: Nemi_Idle2_11
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1151
         y: 280
-        width: 190
-        height: 228
+        width: 192
+        height: 229
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bbb7c5351dd6cf4db74182033e0e73d
+      spriteID: 0ca9a9e41fd46544a83435c6ec230c5c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_12
+      name: Nemi_Idle2_12
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 278
-        width: 190
-        height: 230
+        x: 1387
+        y: 277
+        width: 192
+        height: 232
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c337198d9e80214698ed7220fd04393
+      spriteID: 88561a58233627447bfd64d9a5e9b524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_13
+      name: Nemi_Idle2_13
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 16
-        width: 168
-        height: 230
+        x: 1387
+        y: 15
+        width: 170
+        height: 232
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 065b7acd9a1496545a130a9ef2037a26
+      spriteID: de887d5b5806ae140bf766fd8ffd36e6
       vertices: []
       indices: 
       edges: []
@@ -369,7 +369,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 26635fc46459fee46bd6bad265dc3a4c
+    spriteID: 9da89db61f1b0844f954ae60945933e9
     vertices: []
     indices: 
     edges: []
