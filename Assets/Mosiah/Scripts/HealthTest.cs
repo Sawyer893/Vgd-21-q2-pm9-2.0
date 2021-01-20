@@ -7,7 +7,7 @@ public class HealthTest : MonoBehaviour
 {
     public HealthBar healthbar1;
     public float health = 1f;
-   
+    public GameObject player;
 
     private void Update()
     {
@@ -30,5 +30,12 @@ public class HealthTest : MonoBehaviour
 
         yield return new WaitForSeconds(0.03f);
 
+    }
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(health);
+        health += .75f;
+        Debug.Log(health);
+        Destroy(gameObject);
     }
 }

@@ -20,7 +20,7 @@ public class Timer : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
         countdownText.text = currentTime.ToString ("0");
 
-        countdownText.color = Color.red;
+        countdownText.color = Color.green;
 
 
         if (currentTime <= 0)
