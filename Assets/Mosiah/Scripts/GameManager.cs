@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        GameManager.Ghealth -= 0.0006f;
+        GameManager.Ghealth -= 0.0004f;
         healthbar1.SetSize(GameManager.Ghealth);
     }
 }

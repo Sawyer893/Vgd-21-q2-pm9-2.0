@@ -34,7 +34,7 @@ public class HealthTest : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         //Debug.Log(GameManager.Ghealth);
-        GameManager.Ghealth += 0.03f;
+        GameManager.Ghealth += 0.06f;
         //healthbar1.SetSize(GameManager.Ghealth);
         //Debug.Log(GameManager.Ghealth);
         Destroy(gameObject);
