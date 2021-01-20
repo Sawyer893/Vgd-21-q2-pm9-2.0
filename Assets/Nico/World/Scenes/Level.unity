@@ -971,9 +971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 0}
-  health: 1
-  player: {fileID: 0}
+  player: {fileID: 1117558830}
 --- !u!61 &132348611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1375,8 +1373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 593342407}
-  health: 1
   player: {fileID: 0}
 --- !u!114 &227231507
 MonoBehaviour:
@@ -1539,8 +1535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 0}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!1 &251011569
 GameObject:
@@ -1779,8 +1773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 0}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!61 &256742694
 BoxCollider2D:
@@ -3804,8 +3796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 593342407}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!61 &638762192
 BoxCollider2D:
@@ -4440,8 +4430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 0}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!61 &710967434
 BoxCollider2D:
@@ -9505,6 +9493,50 @@ Transform:
   m_Father: {fileID: 746920222}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1420326413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420326415}
+  - component: {fileID: 1420326414}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1420326414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420326413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b453a290c64051e4aa8987f949cd00ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthbar1: {fileID: 593342407}
+--- !u!4 &1420326415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420326413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7747965, y: -3.1545181, z: -0.025655705}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1421412966
 GameObject:
   m_ObjectHideFlags: 0
@@ -10178,8 +10210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 0}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!61 &1485332953
 BoxCollider2D:
@@ -10882,8 +10912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 593342407}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!61 &1607141018
 BoxCollider2D:
@@ -11216,8 +11244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 0}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!61 &1658755136
 BoxCollider2D:
@@ -12249,8 +12275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 0}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!61 &1719639952
 BoxCollider2D:
@@ -12826,8 +12850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 0}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!61 &1776227008
 BoxCollider2D:
@@ -14424,8 +14446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b6b008ebc0e4d46bb15bf2dff04209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar1: {fileID: 593342407}
-  health: 1
   player: {fileID: 1117558830}
 --- !u!1 &2034945904
 GameObject:
