@@ -27,18 +27,18 @@ public class SideMove : MonoBehaviour
     private void FixedUpdate()
     {
         
-        //move us right
+        //move right
         if(Input.GetAxis("Horizontal")> 0)
         {
-           
 
+            sr.flipX = true;
             rb2.AddForce(new Vector2(accel, 0));
         }
         //move left
         if (Input.GetAxis("Horizontal") < 0)
         {
-           
 
+            sr.flipX = false;
             rb2.AddForce(new Vector2(-accel, 0));
 
             Anim.SetFloat("Velocity X", Mathf.Abs(rb2.velocity.x));
