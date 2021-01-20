@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -23,9 +24,11 @@ public class Timer : MonoBehaviour
         countdownText.color = Color.green;
 
 
-        if (currentTime <= 0)
+        if (currentTime < 0)
         {
             currentTime = 0;
+            SceneManager.LoadScene("WinScreen");
+
         }
     }     
 }

@@ -30,7 +30,8 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 0;
         AudioListener.pause = true;
-        pauseMenuUI.SetActive(true);
+        pauseMenuUI.SetActive(true); 
+        GameManager.Ghealth += 0.0006f;
     }
 
     void DeactivateMenu()
